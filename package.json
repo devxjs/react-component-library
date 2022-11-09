@@ -1,0 +1,45 @@
+{
+  
+  "name": "@devxjs/react-component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/react-component-library"
+  },
+  "version": "0.0.2",
+  "description": "A custom React component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devxjs/react-component-library.git"
+  },
+  "author": "devx-js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devxjs/react-component-library/issues"
+  },
+  "homepage": "https://github.com/devxjs/react-component-library#readme",
+  "devDependencies": {
+    "@mdx-js/react": "2.1.5",
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/react": "^18.0.25",
+    "react": "^18.2.0",
+    "rollup": "^3.2.5",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-postcss": "4.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.8.4",
+    "tslint":"6.1.3",
+    "sass":"1.56.1"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module"
+}
